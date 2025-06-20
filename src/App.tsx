@@ -156,16 +156,16 @@ function App() {
                   value={walletAddress}
                   onChange={(e) => setWalletAddress(e.target.value)}
                   placeholder="Enter wallet address (0x...)"
-                  className="w-full px-4 py-3 text-xl bg-transparent text-white placeholder-gray-500 border-none outline-none resize-none font-mono"
+                  className="w-full px-3 py-2 text-base bg-transparent text-white placeholder-gray-500 border border-gray-700 rounded-lg outline-none font-mono focus:border-blue-500 transition-colors"
                   disabled={loading}
                 />
               </div>
 
-              <div className="flex justify-end pt-2">
+              <div className="flex justify-end">
                 <button
                   type="submit"
                   disabled={loading || !walletAddress.trim()}
-                  className="px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white text-sm font-bold rounded-full border border-blue-400/50 shadow-md hover:shadow-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-500"
+                  className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-lg border border-blue-400/50 shadow-sm hover:shadow-md transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-500"
                 >
                   {loading ? (
                     <div className="flex items-center space-x-2">
