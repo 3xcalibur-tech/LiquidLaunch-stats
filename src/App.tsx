@@ -9,6 +9,7 @@ import {
   Download,
 } from "lucide-react";
 import html2canvas from "html2canvas";
+import { Analytics } from "@vercel/analytics/react";
 
 interface WalletStats {
   address: string;
@@ -340,6 +341,8 @@ function App() {
           </div>
         )}
       </main>
+
+      <Analytics />
     </div>
   );
 }
