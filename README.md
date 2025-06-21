@@ -27,7 +27,7 @@ A beautiful, Twitter-inspired wallet analytics dashboard for the Liquid Launch p
 1. **Clone the repository**
    ```bash
    git clone https://github.com/3xcalibur-tech/LiquidLaunch-stats
-   cd LL-stats
+   cd LiquidLaunch-stats
    ```
 
 2. **Install dependencies**
